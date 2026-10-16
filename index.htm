@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="cs.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <div class="hero-text">
+
+            <div class="eyebrow">
+                DIGITAL • PRECISION • FUTURE
+            </div>
+
+            <h1>
+                CALCULATE<br>
+                THE <span>POSSIBILITIES.</span>
+            </h1>
+
+
+
+        </div>
+
+
+
+
+        <div class="iphone">
+
+            <div class="volume-up"></div>
+
+            <div class="volume-down"></div>
+
+            <div class="power-button"></div>
+
+
+            <div class="phone-screen">
+
+
+
+
+                <div class="notch">
+
+                    <div class="speaker"></div>
+
+                    <div class="camera"></div>
+
+                </div>
+
+
+
+
+                <div class="wallpaper">
+
+                    <img src="2dlg0q69imk91.jpg" alt="Phone Wallpaper">
+
+                </div>
+
+
+
+
+                <div class="home-indicator"></div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="calculator">
+
+
+            <div class="volume-up1"></div>
+
+            <div class="volume-down1"></div>
+
+            <div class="power-button1"></div>
+
+            <div class="notch2">
+
+                    <div class="speaker"></div>
+
+                    <div class="camera"></div>
+
+                </div>
+
+
+            <div class="calc-display">
+
+                <div id="previous"></div>
+
+                <div id="display">0</div>
+
+            </div>
+
+
+
+
+            <div class="buttons">
+
+
+                <button class="function" onclick="clearCalculator()">
+                    AC
+                </button>
+
+                <button class="function" onclick="toggleSign()">
+                    +/-
+                </button>
+
+                <button class="function" onclick="percentage()">
+                    %
+                </button>
+
+                <button class="operator" onclick="chooseOperator('/')">
+                    ÷
+                </button>
+
+
+
+
+                <button onclick="appendNumber('7')">
+                    7
+                </button>
+
+                <button onclick="appendNumber('8')">
+                    8
+                </button>
+
+                <button onclick="appendNumber('9')">
+                    9
+                </button>
+
+                <button class="operator" onclick="chooseOperator('*')">
+                    ×
+                </button>
+
+
+
+
+
+                <button onclick="appendNumber('4')">
+                    4
+                </button>
+
+                <button onclick="appendNumber('5')">
+                    5
+                </button>
+
+                <button onclick="appendNumber('6')">
+                    6
+                </button>
+
+                <button class="operator" onclick="chooseOperator('-')">
+                    −
+                </button>
+
+
+
+
+
+                <button onclick="appendNumber('1')">
+                    1
+                </button>
+
+                <button onclick="appendNumber('2')">
+                    2
+                </button>
+
+                <button onclick="appendNumber('3')">
+                    3
+                </button>
+                
+                <button class="operator" onclick="chooseOperator('+')">
+                    +
+                </button>
+
+
+
+
+
+                <button class="zero" onclick="appendNumber('0')">
+                    0
+                </button>
+
+                <button onclick="appendDecimal()">
+                    .
+                </button>
+
+                <button class="operator" onclick="calculate()">
+                    =
+                </button>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>
